@@ -7,10 +7,11 @@ using System.Collections;
 
 public class GameOver : MonoBehaviour
 {
-    public Text countdownText; // Reference to the UI Text for countdown on the Canvas
-    public AudioSource gameOverSound; // Reference to the AudioSource that will play the game-over sound
+    public Text countdownText;        // UI Text for countdown on the Canvas
+    public AudioSource gameOverSound; // Audio source for game-over sound
+    private bool gameOverTriggered = false;
 
-    private bool gameOverTriggered = false; // Flag to prevent multiple triggers
+    
 
     // Start is called before the first frame update
     void Start()
