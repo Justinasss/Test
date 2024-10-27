@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 202648075355486023}
   - component: {fileID: 2414085026537546061}
   - component: {fileID: -6416906927963308566}
-  - component: {fileID: 3135565324010916309}
+  - component: {fileID: 7576774435044389231}
   m_Layer: 0
   m_Name: Candy (2) 1
   m_TagString: Candy
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1eead4acad18ec4bae134d28d2db072, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3135565324010916309
+--- !u!114 &7576774435044389231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,8 +153,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7322827053805587109}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccce05e7696b8cd4899d2d97d59c1fb2, type: 3}
+  m_Script: {fileID: 11500000, guid: b91372fbcd210b040bece1138b08307b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownText: {fileID: 0}
-  gameOverSound: {fileID: 0}
